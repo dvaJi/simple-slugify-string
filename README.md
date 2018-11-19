@@ -1,6 +1,6 @@
 # simple-slugify-string
 
-[![Build Status](https://travis-ci.org/dvaJi/simple-slugify-string.svg?branch=master)](https://travis-ci.org/dvaJi/simple-slugify-string)
+[![Build Status](https://travis-ci.org/dvaJi/simple-slugify-string.svg?branch=master)](https://travis-ci.org/dvaJi/simple-slugify-string) [![Greenkeeper badge](https://badges.greenkeeper.io/dvaJi/simple-slugify-string.svg)](https://greenkeeper.io/)
 
 ## Install
 
