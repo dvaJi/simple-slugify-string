@@ -1,5 +1,7 @@
-.DS_Store
-.vscode
-node_modules
+.idea/
+.DS_*
+node_modules/
 npm-debug.log
-/coverage
+.cache/
+example/dist/
+coverage/

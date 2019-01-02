@@ -1,17 +1,26 @@
 {
   "compilerOptions": {
+    "target": "es5",
+    "skipLibCheck": false,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "experimentalDecorators": true,
-    "lib": ["dom", "es2017"],
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "outDir": "dist",
-    "preserveConstEnums": true,
-    "strictNullChecks": true,
-    "target": "es5"
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "declaration": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es2015",
+      "es2015.promise",
+      "es2017"
+    ]
   },
-  "files": ["src/index.ts"]
+  "include": [
+    "src"
+  ]
 }
