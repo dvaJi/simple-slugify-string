@@ -19,7 +19,7 @@ const slugify = (text: string): string => {
   let slugText = text;
   // Replace all characters from our set
   sets.forEach((set: Set) => {
-    slugText = text.replace(new RegExp(set.from, 'gi'), set.to);
+    slugText = slugText.replace(new RegExp(set.from, 'gi'), set.to);
   });
 
   return slugText
